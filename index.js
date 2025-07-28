@@ -105,3 +105,61 @@
 // const sale =Number(userAge<18 || userAge>65 ) ? 10 :0;
 // const summaCheck = priceTicket - (priceTicket*sale/100);
 // alert(summaCheck)
+
+// const number = prompt('Enter your number');// 10 -30
+// if (Number(number) >= 10 && Number(number) <=30) {
+//     alert('Okay,thank you')
+// } else {
+//     alert('No,please enter another number')
+// }
+// if (Number(number)<10 || Number(number)>30) {
+//     alert('No,please enter another number')
+// } else {
+//     alert('Okay,thank you')
+// }
+// const result = (Number(number)<10 || Number(number)>30) ?  'No': 'Yes'
+// alert(result)
+
+// const speedCar = prompt('Please enter the speed')
+// console.log('більше 120 = штраф . від 60 до 120 = нормально . меньше 60 = можно швидше');
+
+// if (speedCar > 120) {
+//     alert('penalty')
+// } else if(Number(speedCar) >= 60 ) {
+//     alert('normal')
+// } else {
+// alert('Can go faster')
+// }
+
+// const result = prompt('Please enter something') ? 'Thank you' : 'Very sad'
+// alert(result)
+
+// const number = prompt('Please enter number')
+// if (Number(number) % 2 === 0)  {
+//     alert('Even')
+// } else {
+//     alert('Odd')
+// }
+// const result = (Number(number) % 2 === 0) ? 'Even' : 'Odd'
+// alert(result)
+
+// const userInput1 = prompt('Please enter something')
+// const userInput2 = prompt('Please enter something')
+// const result = (userInput1 === userInput2) ?'The same' : 'Not the same'
+// alert(result)
+
+// const number = prompt('Please enter number')
+// const result = (number % 3 === 0 && number % 7 === 0) ? 'Win' : 'Lose'
+// alert(result)
+
+const subjest1 = 12
+const subjest2 = 10
+const subjest3 = 8
+const avarage = ((subjest1 + subjest2 + subjest3) / 3)
+if (avarage >= 10) {
+    alert("Amazing")
+} else if(avarage >= 5 ) {
+    alert('Good')
+}else {
+ alert('Bad')
+}
