@@ -152,14 +152,133 @@
 // const result = (number % 3 === 0 && number % 7 === 0) ? 'Win' : 'Lose'
 // alert(result)
 
-const subjest1 = 12
-const subjest2 = 10
-const subjest3 = 8
-const avarage = ((subjest1 + subjest2 + subjest3) / 3)
-if (avarage >= 10) {
-    alert("Amazing")
-} else if(avarage >= 5 ) {
-    alert('Good')
-}else {
- alert('Bad')
+// const subjest1 = 12
+// const subjest2 = 10
+// const subjest3 = 8
+// const avarage = ((subjest1 + subjest2 + subjest3) / 3)
+// if (avarage >= 10) {
+//     alert("Amazing")
+// } else if(avarage >= 5 ) {
+//     alert('Good')
+// }else {
+//  alert('Bad')
+// }
+
+//  const message = 'Enter message in your language '
+
+// const lang = prompt(message);
+
+// switch (lang) {
+//     case 'ua':
+//     case '1':
+//     case 'українська' :       
+//         alert('привіт');
+//         break;
+//     case 'en':
+//     case '2':
+//     case 'англійска' :     
+//         alert('hi');
+//         break;
+//     case 'pl' :
+//     case '3' :
+//     case 'польска' :      
+//         alert('czesc');
+//         break;
+//     case  'es' :
+//     case '4' :
+//     case 'іспаньска' :     
+//         alert('hola'); 
+//         break;
+//     case 'fr'  : 
+//     case '5' :
+//     case 'французька' :  
+//         alert('bonjour');    
+//         break;
+//     default:
+//          alert('language unavailable');
+//          break;
+// }
+        
+
+
+// if (lang === 'ua' || lang === '1' || lanf === 'українська') {
+//     alert('привіт');
+// } else if (lang === 'en' || lang === '2' || lanf === 'англійска') {
+//     alert('hi');    
+// } else if (lang === 'pl' || lang === '3' || lanf === 'польска') {
+//     alert('czesc');
+// } else if (lang === 'es' || lang === '4' || lanf === 'іспаньска') {
+//     alert('hola');
+// }  else if (lang === 'fr' || lang === '5' || lanf === 'французька') {
+//     alert('bonjour');
+// }   else  {
+//     alert('language unavailable');
+// }
+    
+
+// const dayOfWeek = prompt('Enter a number from 1 to 7');
+// const message = dayOfWeek + 'it is' ;
+// switch (dayOfWeek) {
+//     case '1':
+//         alert(message + ' Monday')
+//         break;
+//      case '2':
+//         alert(message + ' Tuesday')
+//         break;
+//     case '3':
+//         alert(message + ' Wednesday');
+//         break;
+//     case '4' :
+//         alert(message + ' Thursday');
+//         break;
+//     case  '5' :
+//         alert(message + ' Friday'); 
+//         break;
+//     case '6'  : 
+//         alert(message + ' Saturday');    
+//         break;
+//     case '7'  :
+//         alert(message + ' Sunday') ; 
+//     default:
+//         alert('This day of the week is not real')
+//         break;
+// }
+
+const userInput1 = prompt('Enter first number');
+const userInput2  = prompt('Enter second number');
+
+const number1 = Number(userInput1);
+const number2 = Number(userInput2);
+
+const operator = prompt('Enter operator :  +, -, * , / , % ');
+
+switch (operator) {
+    case '+':{
+         const result = number1 + number2;
+        alert( number1 + '+' + number2 + '=' + result);
+        break;
+    }
+    case '-':{
+         const result = number1 - number2;
+        alert( number1 + '-' + number2 + '=' + result);
+        break;
+    }   
+    case '*':{
+         const result = number1 * number2;
+        alert( number1 + '*' + number2 + '=' + result);
+        break;
+    }
+    case '/':{
+         const result = number1 / number2;
+        alert( number1 + '/' + number2 + '=' + result);
+        break;
+    }
+    case '%':{
+         const result = number1 % number2;
+        alert( number1 + '%' + number2 + '=' + result);
+        break;
+    }
+    default:
+        alert('operator doesnt exists');
+        break;
 }
