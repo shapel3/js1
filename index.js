@@ -244,41 +244,172 @@
 //         break;
 // }
 
-const userInput1 = prompt('Enter first number');
-const userInput2  = prompt('Enter second number');
+// const userInput1 = prompt('Enter first number');
+// const userInput2  = prompt('Enter second number');
 
-const number1 = Number(userInput1);
-const number2 = Number(userInput2);
+// const number1 = Number(userInput1);
+// const number2 = Number(userInput2);
 
-const operator = prompt('Enter operator :  +, -, * , / , % ');
+// const operator = prompt('Enter operator :  +, -, * , / , % ');
 
-switch (operator) {
-    case '+':{
-         const result = number1 + number2;
-        alert( number1 + '+' + number2 + '=' + result);
-        break;
-    }
-    case '-':{
-         const result = number1 - number2;
-        alert( number1 + '-' + number2 + '=' + result);
-        break;
-    }   
-    case '*':{
-         const result = number1 * number2;
-        alert( number1 + '*' + number2 + '=' + result);
-        break;
-    }
-    case '/':{
-         const result = number1 / number2;
-        alert( number1 + '/' + number2 + '=' + result);
-        break;
-    }
-    case '%':{
-         const result = number1 % number2;
-        alert( number1 + '%' + number2 + '=' + result);
-        break;
-    }
-    default:
-        alert('operator doesnt exists');
-        break;
-}
+// switch (operator) {
+//     case '+':{
+//          const result = number1 + number2;
+//         alert( number1 + '+' + number2 + '=' + result);
+//         break;
+//     }
+//     case '-':{
+//          const result = number1 - number2;
+//         alert( number1 + '-' + number2 + '=' + result);
+//         break;
+//     }   
+//     case '*':{
+//          const result = number1 * number2;
+//         alert( number1 + '*' + number2 + '=' + result);
+//         break;
+//     }
+//     case '/':{
+//          const result = number1 / number2;
+//         alert( number1 + '/' + number2 + '=' + result);
+//         break;
+//     }
+//     case '%':{
+//          const result = number1 % number2;
+//         alert( number1 + '%' + number2 + '=' + result);
+//         break;
+//     }
+//     default:
+//         alert('operator doesnt exists');
+//         break;
+// }
+
+// console.group('1 task');
+// const age = prompt('Please enter age')
+// const userAge = Number(age)
+// const message = userAge >= 18 ? 'You are adult' : 'You are child'
+// alert(message)
+// console.groupEnd();
+
+// console.group('2 task')
+
+// const userAgeInput = prompt('Enter your age');
+// const userAge = Number(userAgeInput);
+// if (userAge < 0){
+//     alert('this age dont exist');
+// } else if (userAge < 12) {
+//     alert('child');
+// } else if(userAge < 18 ) {
+//     alert('teen');
+// } else if (userAge < 65 ){
+//     alert('adult');
+// } else {
+//     alert('old');
+// }
+
+// console.groupEnd();
+
+// console.group('3 task')
+
+// const userHourInput = prompt('what is the time?')
+// const userHour = Number(userHourInput)
+// if ((userHour>=0 && userHour < 5) || (userHour >= 22 && userHour < 24)) {
+//     alert('Good night');
+// } else if(userHour>=5 && userHour<11) {
+//     alert('good morning');
+// } else if(userHour >= 11 && userHour < 18) {
+//     alert('good day');
+// } else if(userHour >= 18 && userHour < 22) {
+//     alert('good evening');    
+// } else {
+//     alert('This hour doesnt exist');
+// }
+
+// console.groupEnd();
+
+// console.group('4 task')
+// const enterTime1 = prompt('Enter an hour');
+// const userHour = Number(userHourInput);
+
+// const allTime  = userHour >= 9 && userHour <= 17 ? 'works ' : 'doesnt work';
+// alert('Bank' +  allTime );
+
+// console.groupEnd();
+
+// console.group('5 task')
+
+// const userInput = prompt('Enter the number of the month')
+// switch (userInput) {
+//     case '1':
+//         alert('January');
+//         break;
+//     case '2':
+//         alert('February');
+//         break;
+//     case '3':
+//         alert('March');
+//         break;  
+//     case '4':
+//         alert('April');
+//         break;
+//     case '5':
+//         alert('May');
+//         break; 
+//     case '6':
+//         alert('June');
+//         break;
+//     case '7':
+//         alert('July');
+//         break;
+//     case '8':
+//         alert('August');
+//         break;
+//     case '9':
+//         alert('September');
+//         break;
+//     case '10':
+//         alert('October');
+//         break;
+//     case '11':
+//         alert('November');
+//         break;
+//     case '12':
+//         alert('December');
+//         break;                                     
+//     default:
+//         alert('error')
+//         break;
+// }
+
+// console.groupEnd();
+
+// console.group('6 task')
+
+
+// const userInput = prompt('Enter the number of the month')
+// switch (userInput) {
+//     case '1':
+//     case '2':
+//     case '12':        
+//         alert('Winter');
+//         break;
+//     case '3':
+//     case '4':
+//     case '5':        
+//         alert('Sprint');
+//         break;
+//     case '6':
+//     case '7':
+//     case '8':        
+//         alert('Summer');
+//         break;  
+//     case '9':
+//     case '10':
+//     case '11':        
+//         alert('Autumn');
+//         break;
+//     default:
+//         alert('error')
+//         break;
+// }
+// console.groupEnd();
+
