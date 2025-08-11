@@ -420,10 +420,54 @@
 //   amountPlate--;
 // }
 
-let amountPlate = 0;
-const totalAmountPlate =5;
-while (amountPlate < totalAmountPlate) {
-    amountPlate++;
-    console.log('washing plate' , amountPlate);
-}
+// let amountPlate = 0;
+// const totalAmountPlate =5;
+// while (amountPlate < totalAmountPlate) {
+//     amountPlate++;
+//     console.log('washing plate' , amountPlate);
+// }
 
+// while (true) {
+//    const userInput = prompt('enter number 77') ;
+//    if (userInput === '77') {
+//     alert('thanks');
+//     break;
+//    }
+// }
+
+// while (true) {
+//     const userInput = prompt('enter number multiply 7');
+//     const userNumber = Number(userInput)
+//     if (userNumber %7 ===0 && userInput!=='' && userInput!==null) {
+//         alert('thanks')
+//         break;
+//     }
+// }
+// while (true) {
+//     const userInput = prompt('Enter number 0');
+//     if (userInput=='0') {
+//         alert('thanks');
+//         break;
+//     }
+// }
+
+// while (true) {
+//     const userInput = prompt('enter something');
+//     if (userInput) {
+//         alert('thanks' + userInput);
+//         break;
+//     }
+// }
+
+const secretNumber = 4
+while (true) {
+    const userInput = prompt('enter number');
+    const userNumber = Number(userInput);
+    if (userInput==='' || userInput===null || Number.isNaN(userNumber)) {
+        alert('error , enter a number');
+    } else if(userNumber > secretNumber) {
+        alert('secret number is less');
+    } else {
+        alert('secret number is bigger');
+    }
+}
