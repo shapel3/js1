@@ -459,15 +459,110 @@
 //     }
 // }
 
-const secretNumber = 4
-while (true) {
-    const userInput = prompt('enter number');
-    const userNumber = Number(userInput);
-    if (userInput==='' || userInput===null || Number.isNaN(userNumber)) {
-        alert('error , enter a number');
-    } else if(userNumber > secretNumber) {
-        alert('secret number is less');
-    } else {
-        alert('secret number is bigger');
-    }
+// const secretNumber = 4
+// while (true) {
+//     const userInput = prompt('enter number');
+//     const userNumber = Number(userInput);
+//     if (userInput==='' || userInput===null || Number.isNaN(userNumber)) {
+//         alert('error , enter a number');
+//     } else if(userNumber > secretNumber) {
+//         alert('secret number is less');
+//     } else {
+//         alert('secret number is bigger');
+//     }
+// }
+
+// користувач вводить початкове значеня - число
+// потім він вводить знаки або + або -
+// ми залежно від цих знаків робимо інкремент або дікремент
+// це все продовжуються до того доки користувач не натисне відміну
+
+// const numberUser = prompt('Please enter number')
+// let number = Number(numberUser)
+// while (true) {
+//     const operator = prompt('Enter + or -')
+//     if (operator === null) {
+//         break;
+//     } else if(operator === '+') {
+//         number++
+//         console.log(number)
+//     } else if(operator === '-') {
+//         number--
+//         console.log(number);
+        
+//     }
+// }
+
+// console.log('просимо користувача ввести три числа кратних 7якщо вводять числа не кратні сіми, то ми їх не рахуємо');
+//     let score = 0
+// while (true) {
+//     const numberUser = prompt('Please enter multiple of 7')
+//     const number = Number(numberUser)
+//     if ( number % 7 === 0) {
+//         score++ 
+//         console.log(score);
+           
+//     }
+//     if (score === 3) {
+//         break;
+//     }
+// }
+
+// console.log('Попроси користувача вводити "так" або "ні", поки не введе "стоп". Порахуйте, скільки було "так" і скільки "ні".');
+// let scoreYes = 0
+// let scoreNo = 0
+// while (true) {
+//     const userInput = prompt('Please enter yes or no')
+//     if (userInput === 'stop') {
+//        break;  
+//     }
+//     if (userInput === 'yes') {
+//         scoreYes++
+//     }
+//     if (userInput === 'no') {
+//         scoreNo++
+//     }
+
+// }
+// console.log('Yes = ' , scoreYes , 'No = ' , scoreNo );
+
+// let score = 0
+// while (true) {
+//     score++
+//     console.log(score);
+//     if (score >= 5) {
+//        break; 
+//     }
+    
+
+// }
+// console.log('3 -> 9
+// 4 -> 16
+// 5 -> 25
+// 6 -> 36
+// 7 -> 49
+// 8 -> 64
+// 9 -> 81');
+
+// let score = 2
+// while (true) {
+//     score++
+//     console.log(score , '->' ,score  * score);
+//     if (score >=9) {
+//        break;
+// } 
+//     }
+    
+
+// let score = 2
+// while (score < 9) {
+//     score++
+//     console.log(score , '->' ,score  * score);
+   
+//     }
+    
+let score = 0
+while (score < 5) {
+    score++
+    console.log(score);
 }
