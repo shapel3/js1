@@ -22,7 +22,7 @@
 //     alert(num2 + ' - bigest');
 // }else if (num2 > num1) {
 //     alert(num2 + ' - bigest')
-    
+
 // } else {
 //     alert('Equal');
 // }
@@ -31,10 +31,10 @@
 // const remainder7 = number7 % 7;
 // if (remainder7===0) {
 //     console.log('multiply 7');
-    
+
 // } else {
 //     console.log('not multiply');
-    
+
 // }
 
 // const userAgeInput = prompt('Enter your age');
@@ -91,7 +91,7 @@
 // // if (Number(summa)> minSumma) {
 // //     delivery = 0;
 // // } else {
-// //    delivery = 50; 
+// //    delivery = 50;
 // // }
 // alert('до сплати = '+ (Number(summa) + delivery))
 
@@ -171,40 +171,38 @@
 // switch (lang) {
 //     case 'ua':
 //     case '1':
-//     case 'українська' :       
+//     case 'українська' :
 //         alert('привіт');
 //         break;
 //     case 'en':
 //     case '2':
-//     case 'англійска' :     
+//     case 'англійска' :
 //         alert('hi');
 //         break;
 //     case 'pl' :
 //     case '3' :
-//     case 'польска' :      
+//     case 'польска' :
 //         alert('czesc');
 //         break;
 //     case  'es' :
 //     case '4' :
-//     case 'іспаньска' :     
-//         alert('hola'); 
+//     case 'іспаньска' :
+//         alert('hola');
 //         break;
-//     case 'fr'  : 
+//     case 'fr'  :
 //     case '5' :
-//     case 'французька' :  
-//         alert('bonjour');    
+//     case 'французька' :
+//         alert('bonjour');
 //         break;
 //     default:
 //          alert('language unavailable');
 //          break;
 // }
-        
-
 
 // if (lang === 'ua' || lang === '1' || lanf === 'українська') {
 //     alert('привіт');
 // } else if (lang === 'en' || lang === '2' || lanf === 'англійска') {
-//     alert('hi');    
+//     alert('hi');
 // } else if (lang === 'pl' || lang === '3' || lanf === 'польска') {
 //     alert('czesc');
 // } else if (lang === 'es' || lang === '4' || lanf === 'іспаньска') {
@@ -214,7 +212,6 @@
 // }   else  {
 //     alert('language unavailable');
 // }
-    
 
 // const dayOfWeek = prompt('Enter a number from 1 to 7');
 // const message = dayOfWeek + 'it is' ;
@@ -232,13 +229,13 @@
 //         alert(message + ' Thursday');
 //         break;
 //     case  '5' :
-//         alert(message + ' Friday'); 
+//         alert(message + ' Friday');
 //         break;
-//     case '6'  : 
-//         alert(message + ' Saturday');    
+//     case '6'  :
+//         alert(message + ' Saturday');
 //         break;
 //     case '7'  :
-//         alert(message + ' Sunday') ; 
+//         alert(message + ' Sunday') ;
 //     default:
 //         alert('This day of the week is not real')
 //         break;
@@ -262,7 +259,7 @@
 //          const result = number1 - number2;
 //         alert( number1 + '-' + number2 + '=' + result);
 //         break;
-//     }   
+//     }
 //     case '*':{
 //          const result = number1 * number2;
 //         alert( number1 + '*' + number2 + '=' + result);
@@ -319,7 +316,7 @@
 // } else if(userHour >= 11 && userHour < 18) {
 //     alert('good day');
 // } else if(userHour >= 18 && userHour < 22) {
-//     alert('good evening');    
+//     alert('good evening');
 // } else {
 //     alert('This hour doesnt exist');
 // }
@@ -347,13 +344,13 @@
 //         break;
 //     case '3':
 //         alert('March');
-//         break;  
+//         break;
 //     case '4':
 //         alert('April');
 //         break;
 //     case '5':
 //         alert('May');
-//         break; 
+//         break;
 //     case '6':
 //         alert('June');
 //         break;
@@ -374,7 +371,7 @@
 //         break;
 //     case '12':
 //         alert('December');
-//         break;                                     
+//         break;
 //     default:
 //         alert('error')
 //         break;
@@ -384,27 +381,26 @@
 
 // console.group('6 task')
 
-
 // const userInput = prompt('Enter the number of the month')
 // switch (userInput) {
 //     case '1':
 //     case '2':
-//     case '12':        
+//     case '12':
 //         alert('Winter');
 //         break;
 //     case '3':
 //     case '4':
-//     case '5':        
+//     case '5':
 //         alert('Sprint');
 //         break;
 //     case '6':
 //     case '7':
-//     case '8':        
+//     case '8':
 //         alert('Summer');
-//         break;  
+//         break;
 //     case '9':
 //     case '10':
-//     case '11':        
+//     case '11':
 //         alert('Autumn');
 //         break;
 //     default:
@@ -489,7 +485,7 @@
 //     } else if(operator === '-') {
 //         number--
 //         console.log(number);
-        
+
 //     }
 // }
 
@@ -499,9 +495,9 @@
 //     const numberUser = prompt('Please enter multiple of 7')
 //     const number = Number(numberUser)
 //     if ( number % 7 === 0) {
-//         score++ 
+//         score++
 //         console.log(score);
-           
+
 //     }
 //     if (score === 3) {
 //         break;
@@ -514,7 +510,7 @@
 // while (true) {
 //     const userInput = prompt('Please enter yes or no')
 //     if (userInput === 'stop') {
-//        break;  
+//        break;
 //     }
 //     if (userInput === 'yes') {
 //         scoreYes++
@@ -531,9 +527,8 @@
 //     score++
 //     console.log(score);
 //     if (score >= 5) {
-//        break; 
+//        break;
 //     }
-    
 
 // }
 // console.log('3 -> 9
@@ -550,17 +545,16 @@
 //     console.log(score , '->' ,score  * score);
 //     if (score >=9) {
 //        break;
-// } 
+// }
 //     }
-    
 
 // let score = 2
 // while (score < 9) {
 //     score++
 //     console.log(score , '->' ,score  * score);
-   
+
 //     }
-    
+
 // let score = 0
 // while (score < 5) {
 //     score++
@@ -569,7 +563,7 @@
 
 // for(let i = 0 ; i < 5 ; i++ ){
 //    console.log(i);
-   
+
 // }
 
 // let score = 5
@@ -580,14 +574,13 @@
 
 // for(let i = 5 ; i > 0 ; i-- ){
 //     console.log(i);
-    
 
 // }
 
 // for(let i = 10; i < 50; i++){
 //    if (i % 7 === 0) {
 //        console.log(i);
-       
+
 //    }
 // }
 
@@ -613,7 +606,7 @@
 // for(let i = start ; i <= end; i++){
 //   if (i % 2 === 0) {
 //     summa += i;
-    
+
 //   } else {
 //     mult *= i;
 //   }
@@ -630,7 +623,7 @@
 //         break;
 //     }
 //     alert('you have ' + (maxTry - i - 1 )+ ' tries')
-// } 
+// }
 
 // const start = 15;
 // const end = 20;
@@ -639,10 +632,10 @@
 // for(let i = start ; i < end ; i++){
 //     if (i === secretNumber) {
 //         continue;
-//         alert('after continue ');//doesnt work 
+//         alert('after continue ');//doesnt work
 //     }
 //     console.log(i);
-    
+
 // }
 
 // while (true) {
@@ -657,13 +650,12 @@
 //    }
 // }
 
-
 // const number1 = 2;
 // const number2 = 7;
 // const result = 14;
 
 // while (true) {
-//    const userInput = prompt(`how much will be 
+//    const userInput = prompt(`how much will be
 //     ${number1} * ${number2}`) ;
 //    if (userInput === null || userInput.trim()==='') {
 //     alert('be carefull')
@@ -684,9 +676,8 @@
 //       continue;
 //    }
 //    console.log(i);
-   
-// }
 
+// }
 
 // const start = 1;
 // const end = 10;
@@ -699,19 +690,153 @@
 //    }
 //    console.log(i);
 //    summa += i;
-   
+
 // }
 //  console.log(summa);
- 
+
 // const number = 5;
 // for(let i = 1 ; 1 <= 10 ; i++){
 //    console.log(`${number}*{i} = ${number*1} `);
-   
+
 // }
 
 // function logHi() {
 //    console.log('Hi');
-   
+
 // }
 
 // logHi;
+
+// for(let i =1 ; i <= 5 ; i++){
+//     console.log(`Your number is = ${i} `);
+
+// }
+
+//від 30 до 10
+// вивести в консоль:
+
+// 30
+// 24
+// 18
+// 12
+// for(let i = 30;i>=10 ;i--){
+
+//     if (i % 6 === 0) {
+//        console.log(i);
+//     }
+
+// }
+
+// Вивести числа від 1 до 30. Якщо число ділиться на 3 → показати "червоне", на 5 → "жовте", на 3 і 5 → "зелене"
+// for (let i = 1; i <= 30; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(`${i} - зелене`);
+//   } else if (i % 3 === 0) {
+//     console.log(`${i} - червоне`);
+//   } else if (i % 5 === 0) {
+//     console.log(`${i} - жовте`);
+//   } else {
+//     console.log(i);
+//   }
+// }
+// вивести всі номери днів тижня
+// 1-
+// 2 - будні
+// 3 - будні
+// 4 - будні
+// 5 - будні
+// 6 -
+// 7 - вихідний
+// for(let i = 1;i<=7;i++){
+//   if (i >= 1 && i <= 5 ) {
+//     console.log(`${i} - будні`);
+
+//   } else{
+//     console.log(`${i} - вихідний`);
+
+//   }
+// }
+
+// for(let i = 1;i<=7;i++){
+//   if (i === 6 || i === 7) {
+//     console.log(`${i} - вихідний`);
+
+//   } else{
+//     console.log(`${i} - будні`);
+
+//   }
+// }
+
+// замість чисел кратних 4 виводимо -
+// заміть чисел кратних 6 виводимо $$$
+
+// 10
+// 9
+// ***
+// 7
+// $$$
+// 5
+// ***
+// 3
+// 2
+// 1
+
+// for (let i = 10; i >= 1; i--) {
+//   if (i % 4 === 0) {
+//     console.log(`${i} - *** `);
+//   } else if (i % 6 === 0) {
+//     console.log(`${i} - $$$`);
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+// вивести числа від 10 до 30, пропускати ті, які кратні 4
+// for (let i = 10; i <= 30; i++) {
+//   if (i % 4 === 0) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+// просимо користувача ввести 5 чисел, якщо він вводить число 7, то припиняємо просити завчасно
+// for(let i = 1; i <= 5;i++){
+//     const num = prompt(`Enter ${i} number`)
+//     if (Number(num) === 7) {
+//         break;
+//     }
+// }
+// вивести від 5 до 15
+// число 5  -
+// число 6 -
+
+// for(let i = 5 ; i <= 15 ; i++){
+//     if (i  % 2 === 1) {
+//         console.log(`${i} - непарне `);
+
+//     } else {
+//         console.log(`${i} - парне  `);
+
+//     }
+
+// }
+// for (let i = 5; i <= 15; i++) {
+//   i % 2 === 1 ? console.log(`${i} - непарне `) : console.log(`${i} - парне  `);
+// }
+
+// порахувати суму всіх чисел від 1 до 5
+// let summa = 0
+// for(let i = 1 ; i <= 5;i++){
+//    summa += i
+// }
+// console.log(summa);
+
+// порахувати суму всіх чисел від 30 до 50 окрім чисел кратних 3
+// let summa = 0;
+// for (let i = 1; i <= 5; i++) {
+//   if (i % 3 === 0) {
+//     continue;
+//   }
+//   summa += i;
+// }
+// console.log(summa);
