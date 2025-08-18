@@ -561,8 +561,157 @@
    
 //     }
     
-let score = 0
-while (score < 5) {
-    score++
-    console.log(score);
-}
+// let score = 0
+// while (score < 5) {
+//     score++
+//     console.log(score);
+// }
+
+// for(let i = 0 ; i < 5 ; i++ ){
+//    console.log(i);
+   
+// }
+
+// let score = 5
+// while (score > 0) {
+//     console.log(score);
+//     score--;
+// }
+
+// for(let i = 5 ; i > 0 ; i-- ){
+//     console.log(i);
+    
+
+// }
+
+// for(let i = 10; i < 50; i++){
+//    if (i % 7 === 0) {
+//        console.log(i);
+       
+//    }
+// }
+
+// const start = 10;
+// const end = 20;
+// let summa = 0
+// for(let i = start; i < end; i++){
+// //    console.log(i);
+//   summa += i;//    summa = summa + i
+// }
+// console.log('summa =' , summa);
+
+// let mult = 1;
+// for(let i = start; i< end; i++ ){
+//   mult *= i;
+// }
+// console.log('mult = ' ,mult);
+
+// const start = 0;
+// const end = 10;
+// let summa = 0;
+// let mult = 1;
+// for(let i = start ; i <= end; i++){
+//   if (i % 2 === 0) {
+//     summa += i;
+    
+//   } else {
+//     mult *= i;
+//   }
+// }
+// console.log('summa =' , summa);
+// console.log('mult = ' , mult);
+
+// const password = '123qwe';
+// const maxTry = 3;
+// for(let i = 0 ; i < maxTry; i++ ){
+//     const userInputPass = prompt('Enter password')
+//     if (userInputPass === password) {
+//         alert('Welcome!')
+//         break;
+//     }
+//     alert('you have ' + (maxTry - i - 1 )+ ' tries')
+// } 
+
+// const start = 15;
+// const end = 20;
+// const secretNumber = 17;
+
+// for(let i = start ; i < end ; i++){
+//     if (i === secretNumber) {
+//         continue;
+//         alert('after continue ');//doesnt work 
+//     }
+//     console.log(i);
+    
+// }
+
+// while (true) {
+//    const userInput = prompt('Enter number') ;
+//    if (userInput === null) {
+//     alert('be carefull')
+//     continue;
+//    }
+//    if (Number(userInput) === secretNumber) {
+//     alert('Win');
+//     break;
+//    }
+// }
+
+
+// const number1 = 2;
+// const number2 = 7;
+// const result = 14;
+
+// while (true) {
+//    const userInput = prompt(`how much will be 
+//     ${number1} * ${number2}`) ;
+//    if (userInput === null || userInput.trim()==='') {
+//     alert('be carefull')
+//     continue;
+//    }
+//    if (Number(userInput) === result) {
+//     alert('Win! answer = ' + result);
+//     break;
+//    }
+//    alert('Try again')
+// }
+
+// const start = 15;
+// const end = 25;
+
+// for(let i = start ; i < end ;i++){
+//    if (i %4 === 0 && i % 5 ===0) {
+//       continue;
+//    }
+//    console.log(i);
+   
+// }
+
+
+// const start = 1;
+// const end = 10;
+
+// let summa = 0
+
+// for(let i = start ; i <= end ;i++){
+//    if (i % 2 === 0 && i % 3 === 0) {
+//       continue;
+//    }
+//    console.log(i);
+//    summa += i;
+   
+// }
+//  console.log(summa);
+ 
+// const number = 5;
+// for(let i = 1 ; 1 <= 10 ; i++){
+//    console.log(`${number}*{i} = ${number*1} `);
+   
+// }
+
+// function logHi() {
+//    console.log('Hi');
+   
+// }
+
+// logHi;
