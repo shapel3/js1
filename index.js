@@ -840,3 +840,59 @@
 //   summa += i;
 // }
 // console.log(summa);
+
+// function logHi(){
+//     console.log('Hi');
+
+// }
+// logHi();
+
+// if (5===2) {
+//    logHi();
+// }
+// function logMessage(message){
+//     console.log(message);
+
+// }
+// logMessage(123);
+
+// logMessage('Message from code');
+
+// function logForUser(userName, word){
+//      console.log(`${word}, ${userName}`);
+// }
+
+// logForUser('Bill' , 'Hi')
+// logForUser('Tom' , 'Ciao')
+// logForUser('Anna' , 'Halo')
+
+// function logSquareNumber(numb){
+//     console.log(numb * numb);
+
+// }
+// logSquareNumber(2);
+// logSquareNumber(6);
+
+// function logNumberDiapazon(start , end){
+//     for(let i = start; i < end ; i++){
+//        console.log(i);
+
+//     }
+// }
+
+// logNumberDiapazon(1,5)
+
+/**
+ * draw multiple times thing
+ * @param {number} times default value 1
+ * @param {string} thing default value ':)'
+ */
+function drawThings(times = 1, thing = ":)") {
+  for (let i = 1; i <= times; i++) {
+    console.log(i, thing);
+  }
+}
+drawThings(2, "|^|^|");
+drawThings(5);
+drawThings(undefined, "=^.^=");
+drawThings();
